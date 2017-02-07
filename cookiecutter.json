@@ -11,5 +11,6 @@
     "domain_name": "{{ cookiecutter.project_name }}.com",
     "extra_plugins": "y",
     "django_filer": "y",
-    "heroku": "y"
+    "heroku": "y",
+    "postgres":"y"
 }
