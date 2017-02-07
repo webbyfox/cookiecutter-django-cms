@@ -1,7 +1,7 @@
 {
-    "author_name": "Your Name",
-    "email": "Your Email",
-    "year": "2016",
+    "author_name": "Rizwan Mansuri",
+    "email": "mr.mansuri@gmail.com",
+    "year": "2017",
     "version": "0.1.0",
     "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|replace('-', '_') }}",
@@ -10,6 +10,6 @@
     "timezone": "UTC",
     "domain_name": "{{ cookiecutter.project_name }}.com",
     "extra_plugins": "y",
-    "django_filer": "n",
-    "heroku": "n"
+    "django_filer": "y",
+    "heroku": "y"
 }
